@@ -1,4 +1,3 @@
-samuelskanberg.github.io
-========================
+# samuelskanberg.github.io
 
-Website
+My github pages web site
