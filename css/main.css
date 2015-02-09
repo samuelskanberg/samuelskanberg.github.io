@@ -1,14 +1,18 @@
 body {
-    background: url("../images/landscape2.png") no-repeat scroll center center / cover #3cbcfc;
+    background-color: #3cbcfc;
+    background-image: url("../images/landscape2.png"); 
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 300%;
 }
 
-/*div.container {
-    width: 70%;
-    margin: 0 auto;
-}*/
-
-section {
+section, footer {
     background-color: white; 
-    margin: 3em 1em;
+    margin: 1em 1em;
 }
+
+footer {
+    margin-bottom: 5em;
+}
+
 
