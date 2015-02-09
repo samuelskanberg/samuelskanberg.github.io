@@ -5,40 +5,37 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Samuels github page</title>
-        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-        <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" />
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
     </head>
     <body>
         <div class="container">
-            <h1><a href="/">@Samuel's github page</a></h1>
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <div class="container">
-                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </a>
-                        <div class="nav-collapse">
-                            <ul class="nav">
-                                <li class="active"><a href="/">Home</a></li>
-                                <li><a href="https://github.com/samuelskanberg">Projects</a></li>
-                                <li><a href="https://github.com/samuelskanberg/samuelskanberg.github.io/wiki">Wiki</a></li>
-                                <li><a href="about.html">About</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="hero-unit">
-                <h1>Welcome!</h1>
+            <header>
+                <h1><a href="/">Samuel's place</a></h1>
+            </header>
+
+            <nav>
+                <ul class="nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+
+            <section>
+                <h1>Welcome</h1>
                 <p>
-                    Welcome to my github page! Here are some projects I would like to highlight
+                    Welcome to my github page! 
                 </p>
+            </section>
+
+            <section id="projects">
+                <h1>Projects</h1>
+                Here are some projects I would like to highlight
+
                 <ul>
-                    <li><a href="http://samuelskanberg.github.io/vecka/">Vecka</a> (<a href="https://github.com/samuelskanberg/vecka">Source</a>) - A Open web app ("Firefox app") that shows the current week</li>
-                    <li><a href="http://samuelskanberg.github.io/synonym/">Synonym</a> (<a href="https://github.com/samuelskanberg/synonym">Source</a>) - A Open web app ("Firefox app") game that is a clone of the Swedish card games "Alias" and "Med andra ord"</li>
+                    <li><a href="http://samuelskanberg.github.io/vecka/">Vecka</a> (<a href="https://github.com/samuelskanberg/vecka">Source</a>) - An Open web app ("Firefox app") that shows the current week</li>
+                    <li><a href="http://samuelskanberg.github.io/synonym/">Synonym</a> (<a href="https://github.com/samuelskanberg/synonym">Source</a>) - An Open web app ("Firefox app") game that is a clone of the Swedish card games "Alias" and "Med andra ord"</li>
                     <li><a href="https://github.com/samuelskanberg/bankstat">Bankstat</a> - A Drupal 7 plugin that let you get an overview over your spendings</li>
                 </ul>
                 <p>
@@ -48,16 +45,26 @@
                     <li><a href="http://wigglemouse.sourceforge.net/">WiggleMouse</a> - A java program that will "wiggle" your mouse in a set intervall (e.g. so to prevent your screensaver going active while watching youtube).</li>
                     <li><a href="http://rejoystick.sourceforge.net/">Rejoystick</a> - A Linux GTK and SDL application to "emulate" a keyboard with your gamepad.</li>
                 </ul>
-            </div>
+            </section>
 
-            <hr/>
 
-            <div class="footer">
-                Created with <a href="http://getbootstrap.com">Bootstrap</a>
-            </div>
+            <section id="about">
+                <h1>About</h1>
+                <p>
+                    My name is Samuel Skånberg and I am a software engineer/system developer/programmer/hacker/nerd.
+                </p>
+                <p>
+                    I like coding and the hacker culture. Everything from C and Java to Ruby on Rails and Python. I dig free software and free culture. 
+                </p>
+                <a href="http://se.linkedin.com/pub/samuel-sk%C3%A5nberg/1a/48/975" style="text-decoration:none;"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Samuel Skånberg's LinkedIn profile" style="vertical-align:middle;" border="0">&nbsp;View my profile</span></a>
+            </section>
+
+            <footer>
+                All styling and code are public domain 
+            </footer>
         </div>
+
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-        <script src="js/bootstrap.js"></script>
 
     </body>
 </html>
