@@ -15,4 +15,21 @@ footer {
     margin-bottom: 5em;
 }
 
+/*
+.foo {
+    background-image: url("../images/cloud.png");
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+}
+
+.bar {
+    background-image: url("../images/peach.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    height: 200px;
+}*/
+
 
