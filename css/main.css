@@ -4,6 +4,14 @@
         url('../font/PressStart2P.ttf')  format('truetype');
 }
 
+h1, h2, h3, header {
+    font-family: 'PressStart2P', Fallback, sans-serif;
+}
+
+/* To make the full background image always show even if the content of the page is enough */
+html {
+   min-height: 100%;   
+}
 
 body {
     background-color: #3cbcfc;
@@ -13,8 +21,18 @@ body {
     background-size: 300%;
 }
 
-h1 {
-    font-family: 'PressStart2P', Fallback, sans-serif;
+header {
+    margin: 1em 1em;
+}
+
+header h1 {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+header a {
+    text-decoration: none;
 }
 
 section, footer {
