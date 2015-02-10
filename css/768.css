@@ -1,0 +1,17 @@
+@media only screen and (min-device-width : 768px) {
+
+    body {
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    div.container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-bottom: 20em;
+    }
+}
