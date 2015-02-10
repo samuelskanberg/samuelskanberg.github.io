@@ -1,9 +1,20 @@
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('../font/PressStart2P.woff2') format('woff2'),
+        url('../font/PressStart2P.ttf')  format('truetype');
+}
+
+
 body {
     background-color: #3cbcfc;
     background-image: url("../images/landscape2.png"); 
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: 300%;
+}
+
+h1 {
+    font-family: 'PressStart2P', Fallback, sans-serif;
 }
 
 section, footer {
@@ -15,21 +26,5 @@ footer {
     margin-bottom: 5em;
 }
 
-/*
-.foo {
-    background-image: url("../images/cloud.png");
-    background-attachment: fixed;
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    height: 450px;
-    position: relative;
-}
-
-.bar {
-    background-image: url("../images/peach.png");
-    background-size: 10%;
-    background-repeat: no-repeat;
-    height: 200px;
-}*/
 
 
